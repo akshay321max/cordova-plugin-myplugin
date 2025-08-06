@@ -8,6 +8,10 @@
     <clobbers target="cordova.plugins.MyPlugin" />
   </js-module>
 
+ <js-module src="www/util.js" name="MyPluginUtils">
+    <runs />
+  </js-module>
+
   <platform name="ios">
     <source-file src="src/ios/MyPlugin.swift" />
   </platform>
