@@ -8,7 +8,7 @@
     <clobbers target="cordova.plugins.MyPlugin" />
   </js-module>
 
- <js-module src="www/util.js" name="MyPluginUtils">
+ <js-module src="www/utils.js" name="MyPluginUtils">
     <runs />
   </js-module>
 
